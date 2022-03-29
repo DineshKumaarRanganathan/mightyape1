@@ -107,5 +107,7 @@ public class AdactinAppWithBaseClass {
 		String orderId = baseClass.getAttribute(orderNo);
 		System.out.println(orderId);
 		baseClass.writeData("Sheet1", 1, 17, orderId);
+		
+		baseClass.closeWindow();
 	}
 }
